@@ -1,7 +1,0 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\繁延明希\Documents\GitHub\slime).
-  Building SlimeKingEditor...
-  Using Visual Studio 2019 14.26.28805 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 8 actions with 12 processes...
-    [1/8] SharedPCH.Engine.ShadowErrors.cpp
-c1xx : fatal error C1083: �R���p�C���̒��Ԑ����� �t�@�C����J���܂���B'C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch':No such file or directory
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(46,5): error MSB3075: コマンド "chcp 65001 >NUL && D:\UE_4.24\Engine\Build\BatchFiles\Build.bat SlimeKingEditor Win64 Development -Project="C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\SlimeKing.uproject" -WaitMutex -FromMsBuild" はコード 5 で終了しました。このコマンドを実行するための十分な権限があるか確認してください。
