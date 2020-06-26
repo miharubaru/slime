@@ -1,0 +1,3 @@
+C:\Users\rikus\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\UE4Editor\Development\SlimeKing\Definitions.SlimeKing.h
+c:\users\rikus\documents\github\slime\slimeking\source\slimeking\MyActor.h
+C:\Users\rikus\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\UE4Editor\Inc\SlimeKing\MyActor.generated.h

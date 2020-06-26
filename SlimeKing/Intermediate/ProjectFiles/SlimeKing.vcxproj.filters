@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SlimeKing.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{2720ECC1-7D53-4ACE-9D0F-94B00C5254AA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SlimeKing.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SlimeKingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{A182AC3E-5173-474A-A3FC-5947EA2127A3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SlimeKing">
+      <UniqueIdentifier>{F085763D-6580-46EF-AB90-C1571EE5C8DF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SlimeKing\MyActor.cpp">
+      <Filter>Source\SlimeKing</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SlimeKing\MyActor.h">
+      <Filter>Source\SlimeKing</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\SlimeKing\SlimeKing.Build.cs">
+      <Filter>Source\SlimeKing</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SlimeKing\SlimeKing.cpp">
+      <Filter>Source\SlimeKing</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SlimeKing\SlimeKing.h">
+      <Filter>Source\SlimeKing</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
