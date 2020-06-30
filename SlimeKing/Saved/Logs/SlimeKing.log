@@ -1,4 +1,4 @@
-﻿Log file open, 06/30/20 02:47:21
+﻿Log file open, 06/29/20 22:15:35
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,8 +8,8 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
 LogInit: Display: Running engine for game: SlimeKing
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.054446
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.079084
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -33,7 +33,6 @@ LogPluginManager: Mounting plugin AssetManagerEditor
 LogPluginManager: Mounting plugin CryptoKeys
 LogPluginManager: Mounting plugin CurveEditorTools
 LogPluginManager: Mounting plugin DataValidation
-LogPluginManager: Mounting plugin EditorScriptingUtilities
 LogPluginManager: Mounting plugin FacialAnimation
 LogPluginManager: Mounting plugin GameplayTagsEditor
 LogPluginManager: Mounting plugin MacGraphicsSwitching
@@ -50,7 +49,6 @@ LogPluginManager: Mounting plugin CharacterAI
 LogPluginManager: Mounting plugin GeometryCache
 LogPluginManager: Mounting plugin PlatformCrypto
 LogPluginManager: Mounting plugin ProxyLODPlugin
-LogPluginManager: Mounting plugin PythonScriptPlugin
 LogPluginManager: Mounting plugin SkeletalReduction
 LogPluginManager: Mounting plugin MagicLeap
 LogPluginManager: Mounting plugin MagicLeapMedia
@@ -62,7 +60,6 @@ LogPluginManager: Mounting plugin MediaCompositing
 LogPluginManager: Mounting plugin MediaPlayerEditor
 LogPluginManager: Mounting plugin WebMMedia
 LogPluginManager: Mounting plugin WmfMedia
-LogPluginManager: Mounting plugin MegascansPlugin
 LogPluginManager: Mounting plugin TcpMessaging
 LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin ActorSequence
@@ -128,13 +125,13 @@ LogInit: Build: ++UE4+Release-4.24-CL-11590370
 LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
 LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
 LogInit: Net CL: 10570792
-LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 7 1700 Eight-Core Processor          , GPU: Radeon RX 580 Series
 LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
 LogInit: Compiled with Visual C++: 19.16.27032.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.24
 LogInit: Command Line: 
-LogInit: Base Directory: D:/UE_4.24/Engine/Binaries/Win64/
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 25
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -166,657 +163,470 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
-[2020.06.29-17.47.21:514][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.06.29-17.47.21:514][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
-[2020.06.29-17.47.21:514][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
-[2020.06.29-17.47.21:519][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.29-17.47.21:519][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.29-17.47.21:520][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.29-17.47.21:520][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.29-17.47.21:520][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.06.29-17.47.21:522][  0]LogHAL: Display: Platform has ~ 16 GB [17095680000 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.06.29-17.47.21:522][  0]LogInit: Going up to parent DeviceProfile []
-[2020.06.29-17.47.21:522][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.29-17.47.21:522][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.06.29-17.47.21:523][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
-[2020.06.29-17.47.21:523][  0]LogInit: Computer: MYCOMPUTER
-[2020.06.29-17.47.21:523][  0]LogInit: User: 繁延明希
-[2020.06.29-17.47.21:523][  0]LogInit: CPU Page size=4096, Cores=6
-[2020.06.29-17.47.21:523][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.06.29-17.47.21:524][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.06.29-17.47.21:524][  0]LogMemory: Platform Memory Stats for Windows
-[2020.06.29-17.47.21:524][  0]LogMemory: Process Physical Memory: 106.82 MB used, 106.83 MB peak
-[2020.06.29-17.47.21:524][  0]LogMemory: Process Virtual Memory: 102.49 MB used, 102.49 MB peak
-[2020.06.29-17.47.21:524][  0]LogMemory: Physical Memory: 7276.13 MB used,  9027.58 MB free, 16303.71 MB total
-[2020.06.29-17.47.21:524][  0]LogMemory: Virtual Memory: 5164.04 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2020.06.29-17.47.21:532][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.06.29-17.47.21:554][  0]LogInit: Overriding language with editor language configuration option (en).
-[2020.06.29-17.47.21:554][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2020.06.29-17.47.21:680][  0]LogInit: Setting process to per monitor DPI aware
-[2020.06.29-17.47.21:719][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.06.29-17.47.21:719][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.06.29-17.47.21:822][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.29-17.47.21:822][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.06.29-17.47.21:822][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.06.29-17.47.21:822][  0]LogD3D11RHI: D3D11 adapters:
-[2020.06.29-17.47.21:881][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
-[2020.06.29-17.47.21:881][  0]LogD3D11RHI:       2988/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.06.29-17.47.21:883][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.06.29-17.47.21:883][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.06.29-17.47.21:883][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.06.29-17.47.21:890][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.06.29-17.47.21:890][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
-[2020.06.29-17.47.21:890][  0]LogWindows: EnumDisplayDevices:
-[2020.06.29-17.47.21:891][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
-[2020.06.29-17.47.21:891][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
-[2020.06.29-17.47.21:891][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2020.06.29-17.47.21:891][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2020.06.29-17.47.21:892][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.06.29-17.47.21:892][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
-[2020.06.29-17.47.21:892][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
-[2020.06.29-17.47.21:892][  0]LogD3D11RHI:      Driver Date: 3-4-2020
-[2020.06.29-17.47.21:892][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
-[2020.06.29-17.47.21:931][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.06.29-17.47.21:931][  0]LogD3D11RHI: Async texture creation enabled
-[2020.06.29-17.47.21:945][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.06.29-17.47.22:280][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.06.29-17.47.22:303][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.06.29-17.47.22:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.06.29-17.47.22:318][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.06.29-17.47.22:324][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.06.29-17.47.22:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.06.29-17.47.22:334][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.06.29-17.47.22:339][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.06.29-17.47.22:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.06.29-17.47.22:352][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.06.29-17.47.22:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.06.29-17.47.22:370][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.06.29-17.47.22:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.06.29-17.47.22:381][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.06.29-17.47.22:386][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.06.29-17.47.22:393][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.06.29-17.47.22:398][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.06.29-17.47.22:404][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.06.29-17.47.22:404][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.06.29-17.47.22:407][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.06.29-17.47.22:425][  0]LogShaderCompilers: Guid format shader working directory is -1 characters bigger than the processId version (C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Intermediate/Shaders/WorkingDirectory/7640/).
-[2020.06.29-17.47.22:425][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/繁延明希/AppData/Local/Temp/UnrealShaderWorkingDir/D5D93FF547B38D143EA574812505FEF7/'.
-[2020.06.29-17.47.22:425][  0]LogXGEController: Cleaning working directory: C:/Users/繁延明希/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.06.29-17.47.22:426][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.06.29-17.47.22:426][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.06.29-17.47.22:426][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.06.29-17.47.22:970][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.06.29-17.47.23:014][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB C:/Users/繁延明希/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.29-17.47.23:014][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/繁延明希/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.06.29-17.47.23:014][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/繁延明希/Documents/GitHub/slime/slimeking/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.06.29-17.47.23:014][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.06.29-17.47.23:014][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/繁延明希/Documents/GitHub/slime/slimeking/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.29-17.47.23:014][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.06.29-17.47.23:022][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.06.29-17.47.23:022][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.29-17.47.23:022][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.06.29-17.47.23:023][  0]LogDerivedDataCache: Using Local data cache path C:/Users/繁延明希/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.06.29-17.47.23:023][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.06.29-17.47.23:023][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.06.29-17.47.23:043][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.06.29-17.47.23:045][  0]LogSlate: Using FreeType 2.10.0
-[2020.06.29-17.47.23:045][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.06.29-17.47.23:084][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2020.06.29-17.47.23:310][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.29-17.47.23:427][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.06.29-17.47.23:427][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.06.29-17.47.23:427][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.06.29-17.47.23:427][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.06.29-17.47.23:427][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.06.29-17.47.23:438][  0]LogNetVersion: SlimeKing 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3537062741)
-[2020.06.29-17.47.24:198][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.034706 seconds
-[2020.06.29-17.47.24:203][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.06.29-17.47.24:203][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.06.29-17.47.24:203][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.06.29-17.47.24:993][  0]LogPython: Using Python 2.7.14
-[2020.06.29-17.47.25:481][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.06.29-17.47.25:483][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.06.29-17.47.25:532][  0]SourceControl: Source control is disabled
-[2020.06.29-17.47.25:532][  0]SourceControl: Source control is disabled
-[2020.06.29-17.47.25:533][  0]SourceControl: Source control is disabled
-[2020.06.29-17.47.25:534][  0]SourceControl: Source control is disabled
-[2020.06.29-17.47.25:534][  0]SourceControl: Source control is disabled
-[2020.06.29-17.47.25:617][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.06.29-17.47.25:632][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.29-17.47.25:632][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.29-17.47.25:706][  0]LogOcInput: OculusInput pre-init called
-[2020.06.29-17.47.25:712][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.06.29-17.47.25:712][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.06.29-17.47.26:544][  0]LogEngine: Initializing Engine...
-[2020.06.29-17.47.26:545][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.06.29-17.47.26:546][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.06.29-17.47.26:788][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.06.29-17.47.26:795][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.06.29-17.47.26:808][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.29-17.47.26:808][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.29-17.47.26:808][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
-[2020.06.29-17.47.26:808][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
-[2020.06.29-17.47.26:808][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
-[2020.06.29-17.47.26:808][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.29-17.47.26:808][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.29-17.47.26:808][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.29-17.47.26:809][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.29-17.47.26:809][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.29-17.47.26:823][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.29-17.47.26:823][  0]LogAudioMixer: Display: Name: スピーカー (Realtek(R) Audio)
-[2020.06.29-17.47.26:823][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.06.29-17.47.26:823][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.29-17.47.26:823][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.06.29-17.47.26:823][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.06.29-17.47.26:823][  0]LogAudioMixer: Display: Channel Order:
-[2020.06.29-17.47.26:823][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.29-17.47.26:823][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.06.29-17.47.26:848][  0]LogAudioMixer: Display: Using Audio Device スピーカー (Realtek(R) Audio)
-[2020.06.29-17.47.26:855][  0]LogInit: FAudioDevice initialized.
-[2020.06.29-17.47.26:855][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.06.29-17.47.26:924][  0]LogDerivedDataCache: Saved boot cache 0.07s 78MB C:/Users/繁延明希/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.29-17.47.26:925][  0]LogInit: Texture streaming: Enabled
-[2020.06.29-17.47.26:933][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.06.29-17.47.26:933][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.06.29-17.47.26:937][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.06.29-17.47.26:968][  0]LogInit: Transaction tracking system initialized
-[2020.06.29-17.47.26:976][  0]BlueprintLog: New page: Editor Load
-[2020.06.29-17.47.26:999][  0]LocalizationService: Localization service is disabled
-[2020.06.29-17.47.27:190][  0]LogFileCache: Scanning file cache for directory 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/' took 0.00s
-[2020.06.29-17.47.27:190][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.06.29-17.47.27:190][  0]LogCook: Display: Mobile HDR setting 1
-[2020.06.29-17.47.27:694][  0]SourceControl: Source control is disabled
-[2020.06.29-17.47.27:825][  0]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.06.29-17.47.27:827][  0]LogSlate: Took 0.001212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2020.06.29-17.47.35:251][  0]LogSlate: Window 'Restore Packages' being destroyed
-[2020.06.29-17.47.35:254][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2020.06.29-17.47.35:289][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2020.06.29-17.47.36:555][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
-[2020.06.29-17.47.36:558][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2020.06.29-17.47.36:583][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft IME).
-[2020.06.29-17.47.36:584][  0]Cmd: MAP LOAD FILE="C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.06.29-17.47.36:585][  0]LightingResults: New page: Lighting Build
-[2020.06.29-17.47.36:586][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.47.36:586][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.47.36:586][  0]MapCheck: New page: Map Check
-[2020.06.29-17.47.36:586][  0]LightingResults: New page: Lighting Build
-[2020.06.29-17.47.36:613][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
-[2020.06.29-17.47.36:634][  0]LogAIModule: Creating AISystem for world title
-[2020.06.29-17.47.36:635][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.06.29-17.47.36:660][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
-[2020.06.29-17.47.36:661][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.06.29-17.47.36:662][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.145ms to complete.
-[2020.06.29-17.47.36:662][  0]LogFileHelpers: Loading map 'title' took 0.077
-[2020.06.29-17.47.36:753][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-17.47.36:759][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-17.47.36:764][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-17.47.36:769][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-17.47.36:774][  0]LogCollectionManager: Loaded 0 collections in 0.000659 seconds
-[2020.06.29-17.47.36:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/Collections/' took 0.00s
-[2020.06.29-17.47.36:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Developers/繁延明希/Collections/' took 0.00s
-[2020.06.29-17.47.36:785][  0]LogFileCache: Scanning file cache for directory 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Collections/' took 0.00s
-[2020.06.29-17.47.36:785][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 3038 classes and 727 folders.
-[2020.06.29-17.47.36:786][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.06.29-17.47.36:824][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.06.29-17.47.36:827][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
-[2020.06.29-17.47.36:911][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.06.29-17.47.36:914][  0]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.06.29-17.47.36:946][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2020.06.29-17.47.37:021][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.06.29-17.47.37:021][  0]LogLoad: (Engine Initialization) Total time: 16.67 seconds
-[2020.06.29-17.47.37:021][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.06.29-17.47.37:061][  0]LogAssetRegistry: Asset discovery search completed in 13.9778 seconds
-[2020.06.29-17.47.37:064][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
-[2020.06.29-17.47.37:069][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.06.29-17.47.37:141][  0]LogSlate: Took 0.000078 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.29-17.47.38:044][107]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.29-17.47.41:937][480]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_Character/BP_Character.BP_Character
-[2020.06.29-17.47.42:041][480]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
-[2020.06.29-17.47.42:721][480]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.06.29-17.47.42:760][481]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.06.29-17.47.49:569][239]BlueprintLog: New page: Compile BP_Character
-[2020.06.29-17.47.49:737][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
-[2020.06.29-17.47.50:121][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Character/BP_Character" FILE="C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/BluePrints/BP_Character/BP_Character.uasset" SILENT=true
-[2020.06.29-17.47.50:177][277]LogSavePackage: Moving 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/BP_Character632D615A42814E78CDFCB1BBEBC4BB60.tmp' to 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/BluePrints/BP_Character/BP_Character.uasset'
-[2020.06.29-17.47.50:193][277]AssetCheck: New page: Asset Save: BP_Character
-[2020.06.29-17.47.50:193][277]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/BP_Character/BP_Character.BP_Character
-[2020.06.29-17.47.50:541][315]LogRenderer: Reallocating scene render targets to support 1208x688 Format 10 NumSamples 1 (Frame:1).
-[2020.06.29-17.47.56:458][  1]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.47.56:458][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.47.59:385][337]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemy/Wolf/BP_Wolf.BP_Wolf
-[2020.06.29-17.48.16:542][297]BlueprintLog: New page: Compile BP_Wolf
-[2020.06.29-17.48.16:706][297]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
-[2020.06.29-17.48.17:005][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Wolf/BP_Wolf" FILE="C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset" SILENT=true
-[2020.06.29-17.48.17:060][324]LogSavePackage: Moving 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/BP_WolfFEE41734423D722E5637BFAFB9BC3A80.tmp' to 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset'
-[2020.06.29-17.48.17:076][324]AssetCheck: New page: Asset Save: BP_Wolf
-[2020.06.29-17.48.17:076][324]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Wolf/BP_Wolf.BP_Wolf
-[2020.06.29-17.48.17:979][426]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Inventory/InventoryComponent.InventoryComponent
-[2020.06.29-17.48.18:247][426]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BluePrints/BP_Wiedget/InventorySlot.InventorySlot
-[2020.06.29-17.48.18:529][426]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BluePrints/BP_Wiedget/InventoryWindow.InventoryWindow
-[2020.06.29-17.48.18:796][426]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Inventory/SlotsSStructure.SlotsSStructure
-[2020.06.29-17.48.18:862][426]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_Character/BP_Character.BP_Character
-[2020.06.29-17.48.31:765][834]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
-[2020.06.29-17.48.32:850][834]LogSlate: Window 'Delete Assets' being destroyed
-[2020.06.29-17.49.22:842][834]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.49.22:842][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.49.22:846][834]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.49.22:846][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.49.22:883][834]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.49.22:883][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.49.22:922][834]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.49.22:922][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.49.22:969][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.06.29-17.49.22:969][834]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.49.22:969][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.49.23:029][834]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.49.23:030][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.49.23:033][834]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.49.23:034][834]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.49.23:061][834]LogUObjectGlobals: Force Deleting 1 Package(s):
-	Asset Name: /Game/BluePrints/BP_Wiedget/InventorySlot.InventorySlot
-[2020.06.29-17.49.24:526][834]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
-[2020.06.29-17.49.24:572][834]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
-[2020.06.29-17.49.24:597][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2020.06.29-17.50.59:264][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
-[2020.06.29-17.51.00:125][175]LogSlate: Window 'Delete Assets' being destroyed
-[2020.06.29-17.51.00:251][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
-[2020.06.29-17.51.00:284][175]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
-[2020.06.29-17.51.00:311][175]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2020.06.29-17.51.05:453][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2020.06.29-17.51.06:827][789]LogSlate: Window 'Delete Assets' being destroyed
-[2020.06.29-17.51.22:107][789]LogUObjectGlobals: Force Deleting 4 Package(s):
-	Asset Name: /Game/Inventory/Interuct_Intarface.Interuct_Intarface
-	Asset Name: /Game/Inventory/InventoryComponent.InventoryComponent
-	Asset Name: /Game/Inventory/ItemStructure.ItemStructure
-	Asset Name: /Game/Inventory/SlotsSStructure.SlotsSStructure
-[2020.06.29-17.51.22:197][789]LogProperty: Warning: Serialized BlueprintGeneratedClass /Engine/Transient.REINST_InventoryComponent_C_60 for a property of BlueprintGeneratedClass /Engine/Transient.DEADCLASS_InventoryComponent_C_4. Reference will be nullptred.
-    Property = ObjectProperty /Game/BluePrints/BP_Character/BP_Character.BP_Character_C:InventoryComponent
-    Item = REINST_InventoryComponent_C_60 /Engine/Transient.World_1:PersistentLevel.BP_Character_C_1.InventoryComponent
-[2020.06.29-17.51.22:380][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
-[2020.06.29-17.51.22:932][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
-[2020.06.29-17.51.22:956][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
-[2020.06.29-17.51.22:981][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2020.06.29-17.51.23:006][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2020.06.29-17.51.23:032][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
-[2020.06.29-17.51.23:056][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
-[2020.06.29-17.53.50:411][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/BluePrints/BP_Character/BP_Character.uasset' failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:412][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/BluePrints/BP_Character/BP_Character.uasset' failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:412][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/BluePrints/BP_Character/BP_Character.uasset' failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:412][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/BluePrints/BP_Character/BP_Character.uasset' failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:418][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset' failed to load '/Game/Inventory/Interuct_Intarface': Can't find file.
-[2020.06.29-17.53.50:418][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset' failed to load '/Game/Inventory/Interuct_Intarface': Can't find file.
-[2020.06.29-17.53.50:419][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset' failed to load '/Game/Inventory/Interuct_Intarface': Can't find file.
-[2020.06.29-17.53.50:419][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset' failed to load '/Game/Inventory/Interuct_Intarface': Can't find file.
-[2020.06.29-17.53.50:419][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset' failed to load '/Game/Inventory/ItemStructure': Can't find file.
-[2020.06.29-17.53.50:419][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset' failed to load '/Game/Inventory/ItemStructure': Can't find file.
-[2020.06.29-17.53.50:421][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset' failed to load '/Game/Inventory/ItemStructure': Can't find file.
-[2020.06.29-17.53.50:421][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset' failed to load '/Game/Inventory/ItemStructure': Can't find file.
-[2020.06.29-17.53.50:473][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:473][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:478][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:478][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:480][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/UI/UI/UI_BP.uasset' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:480][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/UI/UI/UI_BP.uasset' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:487][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/UI/UI/UI_BP.uasset' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:488][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/UI/UI/UI_BP.uasset' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:488][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:488][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:489][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:489][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:489][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:489][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:490][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:490][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:490][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:490][371]LoadErrors: Failed to load /Game/BluePrints/BP_Wiedget/InventorySlot.InventorySlot_C Referenced by WidgetTree
-[2020.06.29-17.53.50:490][371]LogLinker: Warning: While loading 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap' failed to load '/Game/BluePrints/BP_Wiedget/InventorySlot': Can't find file.
-[2020.06.29-17.53.50:497][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:497][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:497][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:497][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:497][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:497][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:497][371]LogLinker: Warning: Unable to load InventoryComponent_GEN_VARIABLE with outer BlueprintGeneratedClass /Game/BluePrints/BP_Character/BP_Character.BP_Character_C because its class does not exist
-[2020.06.29-17.53.50:497][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:498][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:501][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:501][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:501][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:501][371]LogLinker: Warning: Failed to load '/Game/Inventory/InventoryComponent': Can't find file.
-[2020.06.29-17.53.50:566][371]LogAIModule: Creating AISystem for world BatlleMain
-[2020.06.29-17.53.50:582][371]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Map/BatlleMain.BatlleMain
-[2020.06.29-17.53.50:608][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
-[2020.06.29-17.53.52:980][371]LogSlate: Window 'Save Content' being destroyed
-[2020.06.29-17.53.52:993][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/BP_Character/BP_Character" FILE="C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/BluePrints/BP_Character/BP_Character.uasset" SILENT=true
-[2020.06.29-17.53.53:043][371]LogSavePackage: Moving 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/BP_Character70FF705F4242AACB01BEFA8F4F1DB284.tmp' to 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/BluePrints/BP_Character/BP_Character.uasset'
-[2020.06.29-17.53.53:054][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemy/Wolf/BP_Wolf" FILE="C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset" SILENT=true
-[2020.06.29-17.53.53:109][371]LogProperty: Error: UStructProperty::Serialize Saving: Property 'StructProperty /Game/Enemy/Wolf/BP_Wolf.BP_Wolf_C:ItemStructure'. FallbackStruct structure.
-[2020.06.29-17.53.53:109][371]LogSavePackage: Moving 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Saved/BP_Wolf540B21F745BC98DA4F5042B09AAE2F48.tmp' to 'C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Enemy/Wolf/BP_Wolf.uasset'
-[2020.06.29-17.53.53:112][371]Cmd: MAP LOAD FILE="C:/Users/繁延明希/Documents/GitHub/slime/slimeking/Content/Map/BatlleMain.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.06.29-17.53.53:112][371]LightingResults: New page: Lighting Build
-[2020.06.29-17.53.53:112][371]LoadErrors: New page: Loading map: BatlleMain.umap
-[2020.06.29-17.53.53:113][371]LogWorld: UWorld::CleanupWorld for title, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.53.53:113][371]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.53.53:113][371]MapCheck: New page: Map Check
-[2020.06.29-17.53.53:113][371]LightingResults: New page: Lighting Build
-[2020.06.29-17.53.53:136][371]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
-[2020.06.29-17.53.53:228][371]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.06.29-17.53.53:259][371]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
-[2020.06.29-17.53.53:273][371]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.06.29-17.53.53:273][371]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.112ms to complete.
-[2020.06.29-17.53.53:273][371]LogFileHelpers: Loading map 'BatlleMain' took 0.162
-[2020.06.29-17.53.53:306][371]AssetCheck: New page: Asset Save: multiple assets
-[2020.06.29-17.53.53:306][371]LogContentValidation: Display: Validating Blueprint /Game/BluePrints/BP_Character/BP_Character.BP_Character
-[2020.06.29-17.53.53:306][371]LogContentValidation: Display: Validating Blueprint /Game/Enemy/Wolf/BP_Wolf.BP_Wolf
-[2020.06.29-17.53.54:220][464]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2020.06.29-17.53.54:229][464]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/BatlleMain.BatlleMain:PersistentLevel' has LevelScriptBlueprint '/Game/Map/BatlleMain.BatlleMain:PersistentLevel.BatlleMain' with GeneratedClass '/Game/Map/BatlleMain.BatlleMain_C' with ClassGeneratedBy '/Game/Map/BatlleMain.BatlleMain:PersistentLevel.BatlleMain'
-[2020.06.29-17.53.54:229][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.06.29-17.53.54:229][464]PIE: New page: PIE session: BatlleMain (Jun 30, 2020, 11:53:54 AM)
-[2020.06.29-17.53.54:230][464]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.06.29-17.53.54:231][464]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2020.06.29-17.53.54:231][464]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_BatlleMain
-[2020.06.29-17.53.54:262][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030574s)
-[2020.06.29-17.53.54:263][464]LogAIModule: Creating AISystem for world BatlleMain
-[2020.06.29-17.53.54:263][464]LogPlayLevel: PIE: World Init took: (0.000785s)
-[2020.06.29-17.53.54:263][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/BatlleMain.BatlleMain to /Game/Map/UEDPIE_0_BatlleMain.BatlleMain (0.031555s)
-[2020.06.29-17.53.54:289][464]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
-[2020.06.29-17.53.54:289][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.29-17.53.54:289][464]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.29-17.53.54:289][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
-[2020.06.29-17.53.54:289][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
-[2020.06.29-17.53.54:289][464]LogAudioMixer: Display: 	Number of buffers to queue:			  7
-[2020.06.29-17.53.54:289][464]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.29-17.53.54:289][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.29-17.53.54:289][464]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.29-17.53.54:290][464]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.29-17.53.54:290][464]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.29-17.53.54:302][464]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.29-17.53.54:302][464]LogAudioMixer: Display: Name: スピーカー (Realtek(R) Audio)
-[2020.06.29-17.53.54:302][464]LogAudioMixer: Display: Is Default: Yes
-[2020.06.29-17.53.54:302][464]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.29-17.53.54:302][464]LogAudioMixer: Display: Channel Count Used: 2
-[2020.06.29-17.53.54:302][464]LogAudioMixer: Display: Device Channel Count: 2
-[2020.06.29-17.53.54:302][464]LogAudioMixer: Display: Channel Order:
-[2020.06.29-17.53.54:302][464]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.29-17.53.54:302][464]LogAudioMixer: Display: 1: FrontRight
-[2020.06.29-17.53.54:321][464]LogAudioMixer: Display: Using Audio Device スピーカー (Realtek(R) Audio)
-[2020.06.29-17.53.54:322][464]LogInit: FAudioDevice initialized.
-[2020.06.29-17.53.54:365][464]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-17.53.54:366][464]LogLoad: Game class is 'BP_GameMode_C'
-[2020.06.29-17.53.54:369][464]LogWorld: Bringing World /Game/Map/UEDPIE_0_BatlleMain.BatlleMain up for play (max tick rate 0) at 2020.06.30-02.53.54
-[2020.06.29-17.53.54:369][464]LogWorld: Bringing up level for play took: 0.002822
-[2020.06.29-17.53.54:370][464]LogOnline: OSS: Creating online subsystem instance for: :Context_12
-[2020.06.29-17.53.54:375][464]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2020.06.29-17.53.54:380][464]PIE: Play in editor start time for /Game/Map/UEDPIE_0_BatlleMain 1.043
-[2020.06.29-17.53.54:380][464]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/BatlleMain.BatlleMain:PersistentLevel' has LevelScriptBlueprint '/Game/Map/BatlleMain.BatlleMain:PersistentLevel.BatlleMain' with GeneratedClass '/Game/Map/BatlleMain.BatlleMain_C' with ClassGeneratedBy '/Game/Map/BatlleMain.BatlleMain:PersistentLevel.BatlleMain'
-[2020.06.29-17.53.54:399][464]LogSlate: New Slate User Created.  User Index 1, Is Virtual User: 0
-[2020.06.29-17.53.54:399][464]LogSlate: Slate User Registered.  User Index 1, Is Virtual User: 0
-[2020.06.29-17.53.54:437][465]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2020.06.29-17.54.06:894][932]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.29-17.54.06:894][932]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.29-17.54.06:894][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/BatlleMain.BatlleMain:PersistentLevel' has LevelScriptBlueprint '/Game/Map/BatlleMain.BatlleMain:PersistentLevel.BatlleMain' with GeneratedClass '/Game/Map/BatlleMain.BatlleMain_C' with ClassGeneratedBy '/Game/Map/BatlleMain.BatlleMain:PersistentLevel.BatlleMain'
-[2020.06.29-17.54.06:895][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.29-17.54.06:895][932]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_BatlleMain
-[2020.06.29-17.54.06:903][932]LogSlate: Window 'SlimeKing Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2020.06.29-17.54.06:910][932]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.29-17.54.06:910][932]LogWorld: UWorld::CleanupWorld for BatlleMain, bSessionEnded=true, bCleanupResources=true
-[2020.06.29-17.54.06:910][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.54.06:914][932]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.06.29-17.54.06:914][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/BatlleMain.BatlleMain:PersistentLevel' has LevelScriptBlueprint '/Game/Map/BatlleMain.BatlleMain:PersistentLevel.BatlleMain' with GeneratedClass '/Game/Map/BatlleMain.BatlleMain_C' with ClassGeneratedBy '/Game/Map/BatlleMain.BatlleMain:PersistentLevel.BatlleMain'
-[2020.06.29-17.54.06:919][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.29-17.54.06:947][932]LogAudioMixer: Display: No commands were queued while flushing the source manager.
-[2020.06.29-17.54.06:986][932]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
-[2020.06.29-17.54.06:999][933]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2020.06.29-17.54.09:546][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
-[2020.06.29-17.54.11:523][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2020.06.29-17.54.11:554][445]LogSlate: Window 'SlimeKing - Unreal Editor' being destroyed
-[2020.06.29-17.54.11:639][446]Cmd: QUIT_EDITOR
-[2020.06.29-17.54.11:639][446]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
-[2020.06.29-17.54.11:648][446]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.06.29-17.54.11:648][446]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
+[2020.06.29-13.15.36:049][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.29-13.15.36:049][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.29-13.15.36:050][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
+[2020.06.29-13.15.36:050][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
+[2020.06.29-13.15.36:123][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:123][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.29-13.15.36:123][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.29-13.15.36:124][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.29-13.15.36:125][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.29-13.15.36:125][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.29-13.15.36:125][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.29-13.15.36:129][  0]LogHAL: Display: Platform has ~ 48 GB [51485261824 / 68719476736 / 48], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.29-13.15.36:129][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.29-13.15.36:129][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.29-13.15.36:130][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.29-13.15.36:131][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Scalability.ini]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.29-13.15.36:132][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Config/Windows/Engine.ini]
+[2020.06.29-13.15.36:132][  0]LogInit: Computer: YUKIE-1
+[2020.06.29-13.15.36:132][  0]LogInit: User: rikus
+[2020.06.29-13.15.36:132][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.06.29-13.15.36:132][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.29-13.15.36:133][  0]LogMemory: Memory total: Physical=47.9GB (48GB approx)
+[2020.06.29-13.15.36:133][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.29-13.15.36:133][  0]LogMemory: Process Physical Memory: 107.23 MB used, 107.24 MB peak
+[2020.06.29-13.15.36:133][  0]LogMemory: Process Virtual Memory: 102.41 MB used, 102.41 MB peak
+[2020.06.29-13.15.36:133][  0]LogMemory: Physical Memory: 18602.78 MB used,  30497.39 MB free, 49100.17 MB total
+[2020.06.29-13.15.36:133][  0]LogMemory: Virtual Memory: 5179.39 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2020.06.29-13.15.36:136][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.29-13.15.36:153][  0]LogInit: Using OS detected language (ja-JP).
+[2020.06.29-13.15.36:153][  0]LogInit: Using OS detected locale (ja-JP).
+[2020.06.29-13.15.36:154][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2020.06.29-13.15.36:245][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.29-13.15.36:369][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.29-13.15.36:369][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.29-13.15.36:668][  0]LogHMD: Failed to initialize OpenVR with code 119
+[2020.06.29-13.15.36:668][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.29-13.15.36:668][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.29-13.15.36:668][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.29-13.15.36:712][  0]LogD3D11RHI:    0. 'Radeon RX 580 Series' (Feature Level 11_0)
+[2020.06.29-13.15.36:712][  0]LogD3D11RHI:       8171/0/24550 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:5, VendorId:0x1002
+[2020.06.29-13.15.36:715][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.29-13.15.36:715][  0]LogD3D11RHI:       0/0/24550 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.29-13.15.36:715][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.29-13.15.36:731][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.29-13.15.36:731][  0]LogD3D11RHI:     GPU DeviceId: 0x67df (for the marketing name, search the web for "GPU Device Id")
+[2020.06.29-13.15.36:731][  0]LogWindows: EnumDisplayDevices:
+[2020.06.29-13.15.36:731][  0]LogWindows:    0. 'Radeon RX 580 Series' (P:1 D:1)
+[2020.06.29-13.15.36:732][  0]LogWindows:    1. 'Radeon RX 580 Series' (P:0 D:1)
+[2020.06.29-13.15.36:732][  0]LogWindows:    2. 'Radeon RX 580 Series' (P:0 D:1)
+[2020.06.29-13.15.36:732][  0]LogWindows:    3. 'Radeon RX 580 Series' (P:0 D:1)
+[2020.06.29-13.15.36:733][  0]LogWindows:    4. 'Radeon RX 580 Series' (P:0 D:1)
+[2020.06.29-13.15.36:733][  0]LogWindows:    5. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.06.29-13.15.36:733][  0]LogWindows:    6. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.06.29-13.15.36:734][  0]LogWindows:    7. 'Radeon RX 580 Series' (P:0 D:0)
+[2020.06.29-13.15.36:734][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2020.06.29-13.15.36:734][  0]LogD3D11RHI:     Adapter Name: Radeon RX 580 Series
+[2020.06.29-13.15.36:734][  0]LogD3D11RHI:   Driver Version: Adrenalin 2019 19.12.1 (internal:26.20.13031.20012, unified:26.20.13031.20012)
+[2020.06.29-13.15.36:734][  0]LogD3D11RHI:      Driver Date: 11-26-2019
+[2020.06.29-13.15.36:734][  0]LogRHI: Texture pool is 5720 MB (70% of 8171 MB)
+[2020.06.29-13.15.36:871][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2020.06.29-13.15.36:871][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.29-13.15.36:883][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.06.29-13.15.37:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.29-13.15.37:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.29-13.15.37:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.29-13.15.37:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.06.29-13.15.37:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.29-13.15.37:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.06.29-13.15.37:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.29-13.15.37:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.29-13.15.37:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.29-13.15.37:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.29-13.15.37:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.29-13.15.37:261][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.29-13.15.37:270][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.29-13.15.37:279][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.29-13.15.37:289][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.29-13.15.37:298][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.29-13.15.37:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.29-13.15.37:329][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.29-13.15.37:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.29-13.15.37:346][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.29-13.15.37:356][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.29-13.15.37:365][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.29-13.15.37:374][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.29-13.15.37:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.29-13.15.37:383][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.29-13.15.37:386][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.29-13.15.37:413][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/rikus/Documents/GitHub/slime/slimeking/Intermediate/Shaders/WorkingDirectory/64652/).
+[2020.06.29-13.15.37:413][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rikus/AppData/Local/Temp/UnrealShaderWorkingDir/676F72A740E9C6A06C674AAC42A8E0F9/'.
+[2020.06.29-13.15.37:414][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.29-13.15.37:414][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.29-13.15.37:414][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.29-13.15.38:270][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.29-13.15.38:331][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/rikus/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.29-13.15.38:331][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rikus/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.06.29-13.15.38:332][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/rikus/Documents/GitHub/slime/slimeking/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.29-13.15.38:332][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.29-13.15.38:332][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/rikus/Documents/GitHub/slime/slimeking/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.29-13.15.38:332][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.29-13.15.38:345][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.29-13.15.38:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.29-13.15.38:345][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.29-13.15.38:346][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rikus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.29-13.15.38:346][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.29-13.15.38:346][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.29-13.15.38:377][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.29-13.15.38:381][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.29-13.15.38:381][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.29-13.15.38:437][  0]LogAssetRegistry: FAssetRegistry took 0.0028 seconds to start up
+[2020.06.29-13.15.38:786][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.29-13.15.38:966][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.29-13.15.38:966][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.29-13.15.38:966][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.29-13.15.38:966][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.29-13.15.38:966][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.29-13.15.39:046][  0]LogNetVersion: SlimeKing 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3537062741)
+[2020.06.29-13.15.40:249][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.057397 seconds
+[2020.06.29-13.15.40:260][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.06.29-13.15.40:260][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.06.29-13.15.40:260][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.29-13.15.40:766][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.29-13.15.40:769][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.29-13.15.40:827][  0]SourceControl: ソースコントロールは無効です
+[2020.06.29-13.15.40:827][  0]SourceControl: ソースコントロールは無効です
+[2020.06.29-13.15.40:829][  0]SourceControl: ソースコントロールは無効です
+[2020.06.29-13.15.40:830][  0]SourceControl: ソースコントロールは無効です
+[2020.06.29-13.15.40:831][  0]SourceControl: ソースコントロールは無効です
+[2020.06.29-13.15.40:924][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.29-13.15.40:936][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.29-13.15.40:937][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.29-13.15.41:041][  0]LogOcInput: OculusInput pre-init called
+[2020.06.29-13.15.41:050][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.29-13.15.41:050][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.29-13.15.41:134][  0]LogEngine: Initializing Engine...
+[2020.06.29-13.15.41:204][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.06.29-13.15.41:206][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.06.29-13.15.41:629][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.29-13.15.41:636][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.29-13.15.41:659][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.29-13.15.41:659][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.29-13.15.41:659][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 256
+[2020.06.29-13.15.41:659][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  256
+[2020.06.29-13.15.41:659][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  7
+[2020.06.29-13.15.41:659][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.29-13.15.41:659][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.29-13.15.41:659][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.29-13.15.41:659][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.29-13.15.41:659][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.29-13.15.41:707][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.29-13.15.41:708][  0]LogAudioMixer: Display: Name: Digital_opt (4- High Definition Audio Device)
+[2020.06.29-13.15.41:708][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.06.29-13.15.41:708][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.29-13.15.41:708][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.29-13.15.41:708][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.29-13.15.41:708][  0]LogAudioMixer: Display: Channel Order:
+[2020.06.29-13.15.41:708][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.29-13.15.41:708][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.29-13.15.41:751][  0]LogAudioMixer: Display: Using Audio Device Digital_opt (4- High Definition Audio Device)
+[2020.06.29-13.15.41:760][  0]LogInit: FAudioDevice initialized.
+[2020.06.29-13.15.41:760][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.29-13.15.41:822][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/rikus/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.29-13.15.41:832][  0]LogInit: Texture streaming: Enabled
+[2020.06.29-13.15.41:844][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.29-13.15.41:844][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.29-13.15.41:846][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.29-13.15.41:930][  0]LogInit: Transaction tracking system initialized
+[2020.06.29-13.15.41:945][  0]BlueprintLog: New page: エディタの読み込み
+[2020.06.29-13.15.41:989][  0]LocalizationService: ローカライズのサービスが無効になりました
+[2020.06.29-13.15.42:406][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rikus/Documents/GitHub/slime/slimeking/Content/' took 0.00s
+[2020.06.29-13.15.42:406][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.29-13.15.42:406][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.29-13.15.43:185][  0]SourceControl: ソースコントロールは無効です
+[2020.06.29-13.15.43:185][  0]Cmd: MAP LOAD FILE="../../../../../../Users/rikus/Documents/GitHub/slime/slimeking/Content/Map/title.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.29-13.15.43:185][  0]LightingResults: New page: ライティングのビルド
+[2020.06.29-13.15.43:186][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-13.15.43:186][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.29-13.15.43:186][  0]MapCheck: New page: マップをチェック
+[2020.06.29-13.15.43:186][  0]LightingResults: New page: <何も選択されていません>
+[2020.06.29-13.15.43:234][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.06.29-13.15.43:264][  0]LogAIModule: Creating AISystem for world title
+[2020.06.29-13.15.43:265][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.29-13.15.43:306][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.06.29-13.15.43:308][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.29-13.15.43:308][  0]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.187ミリ秒かかりました。
+[2020.06.29-13.15.43:308][  0]LogFileHelpers: Loading map 'title' took 0.123
+[2020.06.29-13.15.43:558][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-13.15.43:566][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-13.15.43:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-13.15.43:581][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.29-13.15.43:586][  0]LogCollectionManager: Loaded 0 collections in 0.002159 seconds
+[2020.06.29-13.15.43:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rikus/Documents/GitHub/slime/slimeking/Saved/Collections/' took 0.00s
+[2020.06.29-13.15.43:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rikus/Documents/GitHub/slime/slimeking/Content/Developers/rikus/Collections/' took 0.00s
+[2020.06.29-13.15.43:606][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rikus/Documents/GitHub/slime/slimeking/Content/Collections/' took 0.00s
+[2020.06.29-13.15.43:606][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 3015 classes and 717 folders.
+[2020.06.29-13.15.43:609][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.29-13.15.43:665][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.29-13.15.43:669][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.06.29-13.15.43:712][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.29-13.15.43:713][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Regular.otf' (707K)
+[2020.06.29-13.15.43:713][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Bold.otf' (698K)
+[2020.06.29-13.15.43:714][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.29-13.15.43:716][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.29-13.15.43:928][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2020.06.29-13.15.44:104][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.06.29-13.15.44:104][  0]LogLoad: (Engine Initialization) Total time: 9.60 seconds
+[2020.06.29-13.15.44:104][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.29-13.15.44:165][  0]LogAssetRegistry: Asset discovery search completed in 5.7292 seconds
+[2020.06.29-13.15.44:169][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
+[2020.06.29-13.15.44:170][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.29-13.15.44:209][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.29-13.15.47:076][  8]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.29-13.15.47:077][  8]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-Light.otf' (713K)
+[2020.06.29-13.15.47:088][  8]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_Character/BP_Character.BP_Character
+[2020.06.29-13.15.47:267][  8]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.06.29-13.15.48:384][  8]LogSlate: Took 0.000505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/GenEiGothicPro-SemiBold.otf' (703K)
+[2020.06.29-13.15.48:384][  8]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.29-13.15.50:852][286]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.29-13.16.01:086][456]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrints/BP_Character/BP_Character_02.BP_Character_02
+[2020.06.29-13.16.27:932][503]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.06.29-13.16.28:054][503]LogSlate: Window 'SlimeKing - Unreal Editor' being destroyed
+[2020.06.29-13.16.28:056][503]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Google 日本語入力).
+[2020.06.29-13.16.28:156][503]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-13.16.28:156][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.29-13.16.28:234][503]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.06.29-13.16.28:234][503]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.06.29-13.16.28:235][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.29-13.16.28:314][504]Cmd: QUIT_EDITOR
+[2020.06.29-13.16.28:314][504]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.06.29-13.16.28:326][504]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.06.29-13.16.28:326][504]LogAudioMixer: Display: No commands were queued while flushing the source manager.
