@@ -65,21 +65,21 @@
 /I Runtime\TraceLog
 /I Runtime\TraceLog\Public\Trace
 /I Runtime\TraceLog\Public\Trace\Detail
-/I D:\slimeking\Intermediate
-/I D:\slimeking\Intermediate\Source
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\INCLUDE"
+/I C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate
+/I C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Source
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
 /D_HAS_EXCEPTIONS=0
-/FI"D:\slimeking\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h"
-/Yu"D:\slimeking\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h"
-/Fp"D:\slimeking\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h.pch"
-"D:\slimeking\Intermediate\Source\SlimeKing.cpp"
-/FI"D:\slimeking\Intermediate\Build\Win64\UE4\Development\SlimeKing\Definitions.SlimeKing.h"
-/Fo"D:\slimeking\Intermediate\Build\Win64\UE4\Development\SlimeKing\SlimeKing.cpp.obj"
+/FI"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h"
+/Yu"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h"
+/Fp"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h.pch"
+"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Source\SlimeKing.cpp"
+/FI"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\UE4\Development\SlimeKing\Definitions.SlimeKing.h"
+/Fo"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\UE4\Development\SlimeKing\SlimeKing.cpp.obj"
 /TP
 /GR-
 /W4
