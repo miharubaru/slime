@@ -1,4 +1,4 @@
-// PCH for C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\CoreSharedPCH.h
+// PCH for D:\UE_4.24\Engine\Source\Runtime\Core\Public\CoreSharedPCH.h
 #define IS_PROGRAM 0
 #define UE_GAME 1
 #define ENABLE_PGO_PROFILE 0
@@ -27,8 +27,8 @@
 #define WITH_SERVER_CODE 1
 #define WITH_CEF3 1
 #define WITH_LIVE_CODING 1
-#define UE_LIVE_CODING_ENGINE_DIR "C:\\Program Files\\Epic Games\\UE_4.24\\Engine"
-#define UE_LIVE_CODING_PROJECT "D:\\slimeking\\SlimeKing.uproject"
+#define UE_LIVE_CODING_ENGINE_DIR "D:\\UE_4.24\\Engine"
+#define UE_LIVE_CODING_PROJECT "C:\\Users\\繁延明希\\Documents\\GitHub\\slime\\SlimeKing\\SlimeKing.uproject"
 #define WITH_XGE_CONTROLLER 0
 #define UBT_MODULE_MANIFEST "UE4.modules"
 #define UBT_MODULE_MANIFEST_DEBUGGAME "UE4-Win64-DebugGame.modules"
@@ -43,7 +43,7 @@
 #define OVERRIDE_PLATFORM_HEADER_NAME Windows
 #define NDEBUG 1
 #define UE_BUILD_DEVELOPMENT 1
-#define UE_ENGINE_DIRECTORY "C:/Program Files/Epic Games/UE_4.24/Engine/"
+#define UE_ENGINE_DIRECTORY "D:/UE_4.24/Engine/"
 #define UE_IS_ENGINE_MODULE 1
 #define UE_ENABLE_ICU 1
 #define WITH_VS_PERF_PROFILER 0
@@ -57,4 +57,4 @@
 #define CORE_API 
 #define TRACELOG_VTABLE 
 #define TRACELOG_API 
-#include "C:/Program Files/Epic Games/UE_4.24/Engine/Source/Runtime/Core/Public/CoreSharedPCH.h"
+#include "D:/UE_4.24/Engine/Source/Runtime/Core/Public/CoreSharedPCH.h"
