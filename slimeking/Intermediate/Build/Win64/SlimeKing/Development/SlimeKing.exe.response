@@ -205,8 +205,8 @@
 "D:\UE_4.24\Engine\Plugins\Media\WebMMedia\Intermediate\Build\Win64\UE4\Development\WebMMedia\Module.WebMMedia.cpp.obj"
 "D:\UE_4.24\Engine\Plugins\Media\WebMMedia\Intermediate\Build\Win64\UE4\Development\WebMMediaFactory\WebMMediaFactoryModule.cpp.obj"
 "D:\UE_4.24\Engine\Plugins\Runtime\WindowsMoviePlayer\Intermediate\Build\Win64\UE4\Development\WindowsMoviePlayer\Module.WindowsMoviePlayer.cpp.obj"
-"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h.obj"
-"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\UE4\Development\SlimeKing\SlimeKing.cpp.obj"
+"D:\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h.obj"
+"D:\SlimeKing\Intermediate\Build\Win64\UE4\Development\SlimeKing\SlimeKing.cpp.obj"
 "D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Development\BuildSettings\BuildSettings.cpp.obj"
 "D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Development\TraceLog\Module.TraceLog.cpp.obj"
 "D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Development\Core\PCH.Core.h.obj"
@@ -657,7 +657,7 @@
 "D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Development\GeometryCollectionEngine\GeometryCollectionSceneProxy.ispc.obj"
 "D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Development\InteractiveToolsFramework\Module.InteractiveToolsFramework.cpp.obj"
 "D:\UE_4.24\Engine\Intermediate\Build\Win64\UE4\Development\InteractiveToolsFramework\Module.InteractiveToolsFramework.gen.cpp.obj"
-"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Default.rc2.res"
+"D:\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Default.rc2.res"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
@@ -759,8 +759,8 @@
 "ThirdParty/PhysX3\Lib/Win64/VS2015/PhysX3CookingPROFILE_x64.lib"
 "legacy_stdio_definitions.lib"
 "d3d11.lib"
-/OUT:"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Binaries\Win64\SlimeKing.exe"
-/PDB:"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Binaries\Win64\SlimeKing.pdb"
+/OUT:"D:\SlimeKing\Binaries\Win64\SlimeKing.exe"
+/PDB:"D:\SlimeKing\Binaries\Win64\SlimeKing.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_GameplayAbilities
 /INCLUDE:IMPLEMENT_MODULE_Paper2D

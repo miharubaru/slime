@@ -36,11 +36,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
 /D_HAS_EXCEPTIONS=0
-/I C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core
-/Yc"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h"
-/Fp"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h.pch"
-"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.cpp"
-/Fo"C:\Users\繁延明希\Documents\GitHub\slime\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h.obj"
+/I D:\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core
+/Yc"D:\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h"
+/Fp"D:\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h.pch"
+"D:\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.cpp"
+/Fo"D:\SlimeKing\Intermediate\Build\Win64\SlimeKing\Development\Core\SharedPCH.Core.h.obj"
 /TP
 /GR-
 /W4
