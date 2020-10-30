@@ -7,6 +7,10 @@
 		{
 			"Name": "GameplayAbilities",
 			"Enabled": true
+		},
+		{
+			"Name": "CustomMeshComponent",
+			"Enabled": false
 		}
 	]
 }
